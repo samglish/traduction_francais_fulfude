@@ -205,7 +205,7 @@ FB.setText(Translate(FR.getText()));
     }
  public static String RecuperPDF() throws IOException{
         PDFManager pdfManager = new PDFManager();
-           pdfManager.setFilePath("/home/samglish/Documents/Mon memoire/BEIDI FINAL AVANT PROJET 2022.pdf");
+           pdfManager.setFilePath(" "); // set path pdf 
            String text=pdfManager.ToText();
        System.out.println(text);  
        
